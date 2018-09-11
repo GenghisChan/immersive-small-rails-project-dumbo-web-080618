@@ -1,0 +1,7 @@
+<h1>All Users</h1>
+
+<%= search_field_tag "test"%>
+
+<% @users.each do |user| %>
+<%= user.first_name %><br>
+<% end %>
